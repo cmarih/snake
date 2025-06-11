@@ -5,7 +5,7 @@ on:
     - cron: "0 */12 * * *"  # A cada 12 horas
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
